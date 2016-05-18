@@ -12,49 +12,32 @@
 			<h1>GAMES</h1>
 		</div>
 		<nav class="Navigation">
-				<a class="NavButtons" href="#faqu">Home</a>
-				<a class="NavButtons" href="#faqu">Games</a>
-				<a class="NavButtons" href="#faqu">Codes</a>
-				<a class="NavButtons" href="#faqu">About</a>
+				<a class="NavButtons" href="#faqu">HOME</a>
+				<a class="NavButtons" href="#faqu">GAMES</a>
+				<a class="NavButtons" href="#faqu">HARDWARE</a>
+				<a class="NavButtons" href="#faqu">ABOUT</a>
+				<a class="NavButtons" href="login.php">ACCOUNT</a>
+				<a class="NavButtons" href="login.php">LOGIN</a>
 		</nav>
 		<div class="News">
-			<div class="RightArrow" onclick="plusDivs(1)">
-				<img src="C:\wamp2\www\Images\Arrow.png" onclick="plusDivs(1)">
+			<div class="RightArrow" onclick="plusDivs(-1)">
+				<img src="Images\Arrow.png">
 			</div>
-			<div class="LeftArrow" onclick="plusDivs(-1)">
-				<img src="C:\wamp2\www\Images\Arrow.png" onclick="plusDivs(-1)">
+			<div class="LeftArrow" onclick="plusDivs(1)">
+				<img src="Images\Arrow.png">
 			</div>
-				<img class="NewsImage" src="https://d1r7xvmnymv7kg.cloudfront.net/sites_products/darksouls3/assets/img/DARKSOUL_facebook_mini.jpg">
-				<img class="NewsImage" src="http://cdn1.pcadvisor.co.uk/cmsdata/features/3616019/Dishonored_2_release_date_price_platforms_pre-order_official_trailer_thumb800.jpg">
-				<img class="NewsImage" src="http://static5.techinsider.io/image/571a6d5652bcd01b008be79c-1200/doom-cover.png">
-				<h3>Placeholder Game</h3>
-				<script>
-					var slideIndex = 1;
-					showDivs(slideIndex);
-
-					function plusDivs(n) {
-					  showDivs(slideIndex += n);
-					}
-
-					function currentDiv(n) {
-					  showDivs(slideIndex = n);
-					}
-
-					function showDivs(n) {
-					  var i;
-					  var x = document.getElementsByClassName("NewsImage");
-					  if (n > x.length) {slideIndex = 1}    
-					  if (n < 1) {slideIndex = x.length} ;
-					  for (i = 0; i < x.length; i++) {
-					     x[i].style.display = "none";  
-					  }
-					  x[slideIndex-1].style.display = "block";  
-					}
-						</script>
+			<div class="NewsTitle">
+				<p id="NewsName"></p>
+			</div>
+				<img class="NewsImage" src="Images\DarkSouls.jpg">
+				<img class="NewsImage" src="Images\Dishonored.jpg">
+				<img class="NewsImage" src="Images\Portal.jpg">
+				<img class="NewsImage" src="Images\Vive.jpg">
 		</div>
 		<footer>
 			<script type="text/javascript" src="JS/jquery.min.js"></script>
 			<script type="text/javascript"></script>
+			<script src="JS/script.js"></script>
 		</footer>
 	</body>
 </html>
