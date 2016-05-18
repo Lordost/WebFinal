@@ -1,0 +1,29 @@
+# Folders #
+###########
+alias/
+apps/
+lang/
+logs/
+WebbserverNTI/
+scripts/
+tmp/
+tools/
+vhosts/
+*error/
+*logs/
+
+# Files #
+#########
+barimage.bmp
+images_off.bmp
+images_on.bmp
+license.txt
+unins000.dat
+uninstall_services.bat
+wampmanager.tpl
+
+# File types#
+#############
+*.err
+*.log
+*.exe

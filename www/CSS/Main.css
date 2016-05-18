@@ -1,0 +1,88 @@
+body{
+	width: 100%;
+	text-align: center;
+	margin: 0%;
+	background-color:#212121;
+}
+h1{
+	font-family: Dorsa;
+	font-size: 400%;
+	font-weight: 200;
+	padding-bottom: 0%;
+	margin: 0%;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	color:white;
+}
+nav {
+	font-family: Dorsa;
+	font-weight: 200;
+	font-size: 350%;
+	width:100%;
+	background-color: #363636;
+}
+.NavButtons{
+	text-decoration: none;
+	color: black;
+	margin-left:5%;
+	margin-right:5%;
+}
+.Logo{
+	margin:1%;
+	width: 7%;
+	vertical-align: middle;
+	display: inline-block;
+}
+.News{
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 0.5%;
+	background-color: #363636;
+}
+.NewsImage{
+	width: 100%;
+	vertical-align: middle;
+}
+.RightArrow{
+	width:5%;
+	height:10%;
+	margin-top: 15%;
+	position: absolute;
+	background-color:lightgrey;
+	opacity: 0.6;
+}
+.LeftArrow{
+	width:5%;
+	height:10%;
+	margin-top: 15%;
+	margin-left:55%;
+	position: absolute;
+	background-color:lightgrey;
+	opacity: 0.6;
+}
+.LeftArrow img{
+	width: 30%;
+	-ms-transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+	margin-top: 40%;
+}
+.RightArrow img{
+	width:30%;
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin-top: 40%;
+}
+.News h3{
+	text-align: left;
+	vertical-align: middle;
+	font-family: Dorsa;
+	font-size: 200%;
+	font-weight: 150;
+}
+#Home {
+	margin-left: 0px;
+}
