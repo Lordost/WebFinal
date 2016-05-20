@@ -7,13 +7,15 @@
 </head>
 <body>
 	<div class="TitleLogo">
-		<h1>ZOXI</h1>
-		<img class="Logo" src="Images\white-zoxi.png"/>
-		<h1>GAMES</h1>
+		<a href="http://zoxi.eu">
+				<h1>ZOXI</h1>
+				<img class="Logo" src="Images\white-zoxi.png"/>
+				<h1>GAMES</h1>
+			</a>
 	</div>
 	<nav class="Navigation">
 		<a class="NavButtons" href="index.php">HOME</a>
-		<a class="NavButtons" href="#faqu">GAMES</a>
+		<a class="NavButtons" href="games.php">GAMES</a>
 		<a class="NavButtons" href="#faqu">HARDWARE</a>
 		<a class="NavButtons" href="#faqu">ABOUT</a>
 		<a class="NavButtons" href="login.php">ACCOUNT</a>

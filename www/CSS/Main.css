@@ -52,6 +52,7 @@ a{
 	vertical-align: middle;
 }
 .RightArrow{
+	cursor: pointer;
 	width:5%;
 	height:10%;
 	margin-top: 15%;
@@ -60,6 +61,7 @@ a{
 	opacity: 0.9;
 }
 .LeftArrow{
+	cursor: pointer;
 	width:5%;
 	height:10%;
 	margin-top: 15%;
@@ -93,10 +95,15 @@ a{
 	position:absolute;
 	background-color: #363636;
 	opacity: 0.9;
-	width:15%;
+	width:10%;
 	height:4%;
-	margin-left: 45%;
+	margin-left: 50%;
 	margin-top: 31.75%;
+}
+.NewsTitle p{
+	font-family: Dorsa;
+	font-size: 175%;
+	margin-top: 0%;
 }
 .LoginForm{
 	background-color: #363636;
@@ -135,6 +142,82 @@ a{
 	margin-right: 30%;
 	margin-top:5%;
 	margin-bottom: 5%;
+}
+.game{
+	background-color: #363636;
+	width:22%;
+	margin-top: 2.5%;
+	margin-left:2.5%;
+	float: left;
+	display: inline-block;
+	cursor: pointer;
+}
+.game img{
+	width:100%;
+	vertical-align: middle;
+}
+.GamePrice{
+	position: absolute;
+	background-color: #363636;
+	width:5%;
+	margin-top: -2.7%;
+	margin-left: 17%;
+}
+.GamePrice p{
+	font-family: Dorsa;
+	font-size: 175%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.gamePriceInfo{
+	position: absolute;
+	background-color: #363636;
+	width:5%;
+	margin-top: 25.15%;
+	margin-left: 44.5%;
+}
+.gamePriceInfo p{
+	font-family: Dorsa;
+	font-size: 175%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.gameTitle p{
+	font-family: Dorsa;
+	font-size: 300%;
+	margin-top: 1%;
+	margin-bottom: 0.5%;
+	margin-right: 87%;
+}
+.gameImage{
+	margin-left: 1%;
+}
+.gameImage img{
+	width:50%;
+	float:left;
+}
+.information{
+	font-family: Dorsa;
+	font-size: 200%;
+	max-height: 66px;
+	min-height: 66px;
+}
+.addToCart{
+	font-family: Dorsa;
+	font-size: 200%;
+	margin-top:15%;
+	margin-left: 70%;
+	background-color: #363636;
+	width:10%;
+	height: 7%;
+	float: left;
+	vertical-align: middle;
+	position: absolute;
+	cursor: pointer;
+}
+.addToCart p{
+	margin-top: 3%;
+	margin-bottom: 3%;
 }
 #Home {
 	margin-left: 0px;
