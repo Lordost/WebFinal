@@ -18,8 +18,17 @@
 		<a class="NavButtons" href="games.php">GAMES</a>
 		<a class="NavButtons" href="#faqu">HARDWARE</a>
 		<a class="NavButtons" href="#faqu">ABOUT</a>
-		<a class="NavButtons" href="login.php">ACCOUNT</a>
-		<a class="NavButtons" href="login.php">LOGIN</a>
+		<?php 
+
+				if(isset($_SESSION['login'])){
+
+					echo '<a class="NavButtons" href="login.php">ACCOUNT</a>';
+				}
+				else{
+					echo '<a class="NavButtons" href="login.php">LOGIN</a>';
+				}
+
+				 ?>
 	</nav>
 	<div class="game">
 		<a href="exampleGame.php">

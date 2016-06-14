@@ -6,6 +6,7 @@
 		<link rel="stylesheet" type="text/css" href="CSS\Main.css">
 	</head>
 	<body onload="desctext()">
+		
 		<div class="TitleLogo">
 			<a href="http://zoxi.eu">
 				<h1>ZOXI</h1>
@@ -18,8 +19,19 @@
 				<a class="NavButtons" href="games.php">GAMES</a>
 				<a class="NavButtons" href="hardware.php">HARDWARE</a>
 				<a class="NavButtons" href="#faqu">ABOUT</a>
-				<a class="NavButtons" href="login.php">ACCOUNT</a>
-				<a class="NavButtons" href="login.php">LOGIN</a>
+				
+				<?php 
+				session_start();
+				if(isset($_SESSION['login'])){
+
+					echo '<a class="NavButtons" href="login.php">ACCOUNT</a>';
+					echo '<a class="NavButtons" href="PHP/logout.php">LOGOUT</a>';
+				}
+				else{
+					echo '<a class="NavButtons" href="login.php">LOGIN</a>';
+				}
+
+				 ?>
 		</nav>
 		<div class="News">
 			<div class="RightArrow" onclick="plusDivs(-1); desctext(-1)">

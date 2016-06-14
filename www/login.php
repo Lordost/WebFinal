@@ -18,16 +18,25 @@
 		<a class="NavButtons" href="games.php">GAMES</a>
 		<a class="NavButtons" href="#faqu">HARDWARE</a>
 		<a class="NavButtons" href="#faqu">ABOUT</a>
-		<a class="NavButtons" href="login.php">ACCOUNT</a>
-		<a class="NavButtons" href="login.php">LOGIN</a>
+		<?php 
+
+				if(isset($_SESSION['login'])){
+
+					echo '<a class="NavButtons" href="login.php">ACCOUNT</a>';
+				}
+				else{
+					echo '<a class="NavButtons" href="login.php">LOGIN</a>';
+				}
+
+				 ?>
 	</nav>
-		<form class="LoginForm">
+		<form class="LoginForm" action="PHP/verification.php" method="POST">
 			<p>USERNAME</p>
-			<input type="text" name="Username">
+			<input type="text" name="Username" required>
 			<p>PASSWORD</p>
-			<input type="password" name="Password">
+			<input type="password" name="Password" required>
 			<div class="LoginButton">
-				<a class="Login" href="#faqu">LOGIN</a>
+				<input type="submit" class="Login">LOGIN</input>
 			</div>
 			<div class="RegisterButton">
 				<a class="Register" href="register.php">REGISTER</a>
